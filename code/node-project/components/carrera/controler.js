@@ -11,9 +11,9 @@ function addCarrera(nombre, descripcion) {
     })
 }
 
-function getCarreras() {
+function getCarreras(filtroCarrera) {
     return new Promise( (resolve, reject) => {
-        resolve( storage.get() )
+        resolve( storage.get(iltroCarrera) )
     } )
 }
 

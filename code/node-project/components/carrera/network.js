@@ -5,6 +5,7 @@ const controller = require('./controller')
 const router = express.Router()
 
 router.get('/', function(req, res) {
+    const fil
     controller.getCarreras()
         .then((data) => {
             response.success( req, res, data, 200 )
