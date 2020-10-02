@@ -44,3 +44,6 @@ router.delete('/', function(req, res) {
             response.error( req, res, error, 500 )        
         })
 })
+
+
+module.exports = router
